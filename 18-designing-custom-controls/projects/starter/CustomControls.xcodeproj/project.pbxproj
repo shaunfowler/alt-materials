@@ -84,8 +84,10 @@
 				FD43C7BB235D569A003C824D /* Views */,
 				FD43C7B7235D55C3003C824D /* Xibs */,
 			);
+			indentWidth = 4;
 			path = CustomControls;
 			sourceTree = "<group>";
+			tabWidth = 4;
 		};
 		FD43C7B6235D55BE003C824D /* Storyboards */ = {
 			isa = PBXGroup;

@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
-    <device id="retina4_7" orientation="portrait" appearance="light"/>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="landscape" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -30,17 +31,19 @@
                             <rect key="frame" x="26" y="0.0" width="288" height="620"/>
                             <subviews>
                                 <stackView hidden="YES" opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="6Ej-3v-B3e">
-                                    <rect key="frame" x="0.0" y="0.0" width="288" height="0.0"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="288" height="620"/>
                                     <subviews>
                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pitch-control-background" translatesAutoresizingMaskIntoConstraints="NO" id="W2I-pn-VkN">
-                                            <rect key="frame" x="0.0" y="0.0" width="288" height="0.0"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="288" height="620"/>
                                         </imageView>
                                     </subviews>
                                     <variation key="heightClass=compact" hidden="NO"/>
                                     <variation key="heightClass=regular-widthClass=regular" hidden="NO"/>
                                 </stackView>
                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="knob-control" translatesAutoresizingMaskIntoConstraints="NO" id="0dz-sF-ixR" userLabel="Pitch Knob Control">
-                                    <rect key="frame" x="0.0" y="0.0" width="288" height="620"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="288" height="0.0"/>
+                                    <variation key="heightClass=compact" hidden="YES"/>
+                                    <variation key="heightClass=regular-widthClass=regular" hidden="YES"/>
                                 </imageView>
                             </subviews>
                         </stackView>
@@ -57,6 +60,7 @@
                     <rect key="frame" x="26" y="0.0" width="288" height="64"/>
                 </imageView>
             </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <constraints>
                 <constraint firstItem="Pe7-uB-tdA" firstAttribute="centerX" secondItem="W2I-pn-VkN" secondAttribute="centerX" id="8Cw-k0-jve"/>
@@ -68,7 +72,6 @@
                 <constraint firstAttribute="bottom" secondItem="sOn-he-CEU" secondAttribute="bottom" id="yNO-bR-xnT"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
             <variation key="default">
                 <mask key="subviews">
                     <exclude reference="Pe7-uB-tdA"/>
